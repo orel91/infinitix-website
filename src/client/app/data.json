@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "title": "Mobile & Web applications",
+      "content": "At Infinitix, we want to push technology forward. That's why we build apps from scratch using the latest technologies. Whether you want your app to be available on iOS, Android, Windows or the web, we have a solution for you.",
+      "image": "pic01.jpg",
+      "class": "wrapper spotlight style1",
+      "id": "one"
+    },
+    {
+      "title": "Full-stack solutions",
+      "content": "We provide full-stack solutions for your projects. We are passionate about what we do and want to come with the best solution that fits your needs.",
+      "image": "pic02.jpg",
+      "class": "wrapper alt spotlight style2",
+      "id": "two"
+    },
+    {
+      "title": "Who are we?",
+      "content": "We are a young startup founded during the year 2016 and based in Mouscron, Belgium. Our goal is to fully satisfy our customers by collaborating with you and developing what you need.",
+      "image": "pic03.jpg",
+      "class": "wrapper spotlight style3",
+      "id": "three",
+      "link": {
+        "url": "#contact",
+        "title": "Get in touch"
+      }
+    }
+  ],
+  "contact": {
+    "address": {
+      "company": "Infinitix SPRL",
+      "street": "22, Rue de l'Epeule",
+      "postalCode": "7712",
+      "city": "Herseaux",
+      "country": "Belgium"
+    },
+    "phone": "+32 477 64 40 59",
+    "email": "contact@infinitix.io",
+    "twitter": {
+      "title": "twitter.com/InfinitixSprl",
+      "url": "https://twitter.com/InfinitixSprl"
+    },
+    "facebook": {
+      "title": "facebook.com/InfinitixSprl",
+      "url": "https://facebook.com/InfinitixSprl"
+    }
+  },
+  "company": "Infinitix SPRL",
+  "vat": "BE0658912981"
+}

@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+src/client/public/*.svg
+src/client/public/*.jpg
+src/client/public/bundle.js
