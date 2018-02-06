@@ -1,13 +1,15 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { Provider } from 'react-redux';
 
+import store from './store';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Sections from './components/Sections';
 import Footer from './components/Footer';
 
-import './../../assets/css/main.css';
 import './../../assets/fonts/blue/stylesheet.css';
+import './../../assets/css/main.css';
 
 import data from './data.json';
 
@@ -24,4 +26,11 @@ const App = () => (
   </div>
 );
 
-render(<App />, document.getElementById('root'));
+render(
+  (
+    <Provider store={store}>
+      <App />
+    </Provider>
+  ),
+  document.getElementById('root'),
+);

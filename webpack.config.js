@@ -11,7 +11,7 @@ const config = {
     `${LIB_DIR}/jquery.scrollex.min.js`,
     `${LIB_DIR}/util.js`,
     `${LIB_DIR}/main.js`,
-    `${APP_DIR}/index.jsx`,
+    `${APP_DIR}/App.jsx`,
   ],
   plugins: [ // Allows webpack to resolve $ and jQuery without requiring jquery in each file
     new webpack.ProvidePlugin({
@@ -27,7 +27,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.jsx$/,
+        test: /\.(jsx|js)$/,
         exclude: /node_modules/,
         use: { loader: 'babel-loader' },
       },
